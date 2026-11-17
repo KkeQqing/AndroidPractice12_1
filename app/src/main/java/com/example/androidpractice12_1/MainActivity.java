@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         gameView = findViewById(R.id.gameView);
         btnStart = findViewById(R.id.btnStart);
         tvScore = findViewById(R.id.tvScore);
